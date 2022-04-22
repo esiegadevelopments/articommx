@@ -37,7 +37,7 @@ const Footer = () => {
                     144 Colon St., Cebu City, Cebu, 6000, Philippines
                   </li>
                   <li>
-                    <span>Phone : </span> (+63) 917 145 7554
+                    <span>Phone : </span> (+63) 2 342 2378
                   </li>
                 </ul>
               </div>
