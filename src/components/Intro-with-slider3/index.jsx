@@ -83,17 +83,14 @@ const IntroWithSlider3 = () => {
                     <div className="caption">
                       <Split>
                         <h1 data-splitting className="words chars splitting">
-                          <div className="thin">Unique brand</div> Stories
+                          <div className="thin"> Focus on your business</div>{" "}
+                          Our Experts
                         </h1>
                       </Split>
-                      <p>
-                        If you need to redesign your new project, new visual
-                        strategy, ux structure or you do have some cool ideas
-                        for collaboration.
-                      </p>
+                      <p>will take care of the tasks!</p>
                       <Link href="/works3/works3-dark">
                         <a className="btn-curve btn-color btn-radius mt-30">
-                          <span>Discover Work</span>
+                          <span>Build your team now</span>
                         </a>
                       </Link>
                     </div>

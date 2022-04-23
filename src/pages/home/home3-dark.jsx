@@ -1,6 +1,5 @@
 import React from "react";
-import AboutUs2 from "../../components/About-us2";
-import Banner from "../../components/Banner/banner";
+import AboutUs1 from "../../components/About-us1";
 import BlogsThreeColumn1 from "../../components/Blogs-three-column1";
 import Footer from "../../components/Footer";
 import IntroWithSlider3 from "../../components/Intro-with-slider3";
@@ -35,12 +34,10 @@ const Homepage3 = () => {
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
       <IntroWithSlider3 />
-      <AboutUs2 skillsTheme="dark" />
+      <AboutUs1 />
       <Services3 />
       <NumbersWithVideo />
-      <Works2Slider subBG />
       <Testimonials1 />
-      <BlogsThreeColumn1 subBG />
       <Footer />
     </DarkTheme>
   );

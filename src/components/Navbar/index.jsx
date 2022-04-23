@@ -58,14 +58,16 @@ const Navbar = ({ lr, nr, theme }) => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Home
+                BPO Services
               </span>
               <div className="dropdown-menu">
-                <Link href="/home/home1-dark">
-                  <a className="dropdown-item">Main Home</a>
+                <Link href="/">
+                  <a className="dropdown-item">Lead Gen</a>
                 </Link>
                 <Link href="/home/home2-dark">
-                  <a className="dropdown-item">Creative Studio</a>
+                  <a className="dropdown-item">
+                    Inbound & Outbound Sales Expert
+                  </a>
                 </Link>
                 <Link href="/home/home3-dark">
                   <a className="dropdown-item">Business Startup</a>
@@ -87,7 +89,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Showcases
+                Development Services
               </span>
               <div className="dropdown-menu">
                 <Link href="/showcase/showcase-dark">
